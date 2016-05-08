@@ -1,0 +1,12 @@
+@import url("//fonts.googleapis.com/css?family=lobster");
+
+h1 {
+  font-family: 'lobster', cursive;
+  font-weight: 700;
+  line-height: 2.1;
+  color: red;
+}
+
+body {
+  background-color: #fff;
+}

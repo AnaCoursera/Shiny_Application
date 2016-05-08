@@ -1,0 +1,19 @@
+# Course Project: Shiny Application and Reproducible Pitch
+## Instructions
+
+This Shiny App calculates your Body Mass Index (BMI), only you need to insert your Heigth and Weight and press the bottom "Calculate"
+
+Option 1: Link App: https://aminguez.shinyapps.io/Shiny/
+
+Option 2: Download the server.R and ui.R files and place them in a directory named 'BMIApp'. Open an R session and set the working directory to the folder that contains the directory 'BMIApp'. Then run the following commands:
+
+library(shiny)
+runApp('BMIApp')
+
+### BMI Informtion
+The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.
+
+The BMI may also be determined using a table or chart which displays BMI as a function of mass and height using contour lines or colors for different BMI categories, and may use two different units of measurement.
+
+The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight, or obese based on that value. However, there is some debate about where on the BMI scale the dividing lines between categories should be placed. Commonly accepted BMI ranges are underweight: under 18.5, normal weight: 18.5 to 25, overweight: 25 to 30, obese: over 30.
+
